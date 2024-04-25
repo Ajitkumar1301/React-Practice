@@ -26,7 +26,8 @@ const Accordian = () => {
   return (
     <>
       <div className="accordian">
-        <button onClick={() => setEnaleMultiple(true)}>Enable Multi selection</button>
+        <button onClick={() => setEnaleMultiple(!enablemultiple)}>{
+          !enablemultiple ? "Enable Multi selection" : "disable Multi selection"}</button>
         {data && data.length > 0 ? data.map((da) => {
           return (
             <div key={da.id}>
