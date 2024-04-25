@@ -1,0 +1,30 @@
+.accordian{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(5, 244, 120);
+    width: 30rem;
+    margin-top: 2rem;
+  
+     font-weight: bold;
+    cursor: pointer;
+}
+
+.add{
+    margin-top: 0.3rem;
+    font-size: 20px;
+ 
+}
+.answer{
+      
+    background-color: rgb(5, 244, 120);
+    width: 30rem;
+    padding-top: 1rem;
+    cursor: pointer;
+}
